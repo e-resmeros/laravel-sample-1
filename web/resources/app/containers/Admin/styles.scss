@@ -1,0 +1,17 @@
+@import '../../scss/variables';
+
+.admin-container {
+    .sider {
+        background-color: transparent;
+    }
+
+    .ant-layout-sider-trigger {
+        background-color: #e1e1e1;
+        color: $color-lightgray;
+    }
+}
+
+.content {
+    padding: 20px 20px 20px 0;
+    min-height: 100vh;
+}

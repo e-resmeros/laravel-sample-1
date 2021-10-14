@@ -1,0 +1,43 @@
+.users-content {
+  padding: 40px;
+}
+
+.users-management-modal {
+  .alert-message {
+    margin: 5px 0px;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .secondCol {
+    padding-left: 10px;
+  }
+
+  .assign-dealers {
+    display: flex;
+    flex-direction: column;
+
+    .list-item {
+      span {
+        flex: 1;
+      }
+
+      .delete-button {
+        margin-right: 10px;
+      }
+    }
+
+    .add-container {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .cascader {
+      flex: 1;
+      margin-right: 4px;
+    }
+  }
+}

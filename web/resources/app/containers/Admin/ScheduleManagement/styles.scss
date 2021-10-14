@@ -1,0 +1,67 @@
+.schedule-management-component {
+  height: 100%;
+
+  .selection {
+    .button {
+      font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+  }
+
+  .inventory-schedule-content {
+    height: 100%;
+    padding: 20px 40px;
+
+    .schedule-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 20px;
+
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .error {
+          color: red;
+          font-size: 12px;
+          width: 300px;
+          margin-left: 150px;
+          margin-bottom: 10px;
+        }
+
+        .form-item {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          margin: 5px 0;
+
+          .form-item-label {
+            min-width: 150px;
+            text-align: right;
+            white-space: nowrap;
+            padding: 10px;
+          }
+
+          .form-item-field {
+            min-width: 300px;
+            height: 35px;
+            border-radius: 5px;
+          }
+
+          input {
+            size: 14px;
+          }
+        }
+
+        .submit-button {
+          width: 300px;
+          margin-left: 150px;
+        }
+      }
+    }
+  }
+}

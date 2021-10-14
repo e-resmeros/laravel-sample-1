@@ -1,0 +1,15 @@
+@import '../../scss/variables';
+
+.header-container {
+    width: 100%;
+    border-bottom: 1px solid $color-border;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 17px;
+    color: $color-header;
+
+    .title {
+        margin-left: 5px;
+        font-family: $font-primary;
+    }
+}

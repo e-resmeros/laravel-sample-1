@@ -1,0 +1,70 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+
+.ChangePassword {
+    display: flex;
+    background: $color-background;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.cp-container {
+    width: 425px;
+    max-width: 425px;
+
+    .custom-card {
+        padding: 40px;
+    }
+
+    form {
+        margin-top: 12px;
+    }
+
+    .button {
+        margin-top: 12px;
+
+        .icon {
+            position: absolute;
+            color: white;
+            font-size: 27px;
+            vertical-align: middle;
+            margin-top: -5px;
+            margin-left: 1px;
+            transition: 500ms;
+        }
+
+        &:hover {
+            .icon {
+                margin-left: 8px;
+                transition: 500ms;
+            }
+        }
+    }
+
+    .label {
+        font-size: 12px;
+        font-style: italic;
+        color: red;
+        text-align: center;
+    }
+}
+
+.logo-container {
+    text-align: center;
+    margin: 10px 0 30px 0;
+
+    .logo {
+        margin: 15px 0;
+        width: 100px;
+        @include image-center;
+    }
+
+    .logo-text {
+        color: $color-primary;
+        font-size: 60px;
+        font-weight: 700;
+        @include image-center;
+    }
+}
